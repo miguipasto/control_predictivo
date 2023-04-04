@@ -1,0 +1,40 @@
+version: '3'
+services:
+
+  backend:
+    build:
+      context: ./Zamburinhas
+      dockerfile: Dockerfile-backend
+    image: backend
+    container_name: backend
+    network_mode: host
+    environment:
+      - MONGO_URI=mongodb://localhost/baseDatosZamburinhas
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: ./Zamburinhas/FrontEnd
+      dockerfile: Dockerfile-frontend
+    image: frontend
+    container_name: frontend
+    network_mode: host
+
+  microservice:
+    build:
+      context: ./Zamburinhas/microservicio_red_neuronal
+      dockerfile: Dockerfile-microservicio
+    image: microservice
+    container_name: microservice
+    network_mode: host
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    network_mode: host
+    volumes:
+      - ./BD:/data/db
+
