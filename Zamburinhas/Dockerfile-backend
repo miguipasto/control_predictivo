@@ -1,0 +1,17 @@
+FROM node:19.6.1-alpine
+
+WORKDIR ./Zamburinhas/
+
+COPY package*.json ./
+COPY server.js ./
+COPY import.sh ./
+COPY ./BackEnd ./BackEnd
+COPY ./node_modules ./node_modules
+COPY ./BD ./BD 
+
+RUN npm install -g npm@9.6.2
+
+EXPOSE 4000
+
+CMD ["sh","import.sh"]
+CMD ["npm","start"]

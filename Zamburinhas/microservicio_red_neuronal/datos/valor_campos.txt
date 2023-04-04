@@ -1,0 +1,44 @@
+-BEGIN HEADER-
+NASA/POWER CERES/MERRA2 Native Resolution Daily Data 
+Dates (month/day/year): 10/01/2008 through 09/30/2019 
+Location: Latitude  41.0381   Longitude -6.8029 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 563.48 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+T2M                   MERRA-2 Temperature at 2 Meters (C) 
+T2MDEW                MERRA-2 Dew/Frost Point at 2 Meters (C) 
+T2MWET                MERRA-2 Wet Bulb Temperature at 2 Meters (C) 
+TS                    MERRA-2 Earth Skin Temperature (C) 
+T2M_RANGE             MERRA-2 Temperature at 2 Meters Range (C) 
+T2M_MAX               MERRA-2 Temperature at 2 Meters Maximum (C) 
+T2M_MIN               MERRA-2 Temperature at 2 Meters Minimum (C) 
+PRECTOTCORR           MERRA-2 Precipitation Corrected (mm/day) 
+ALLSKY_SFC_SW_DWN     CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+CLRSKY_SFC_SW_DWN     CERES SYN1deg Clear Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+PS                    MERRA-2 Surface Pressure (kPa) 
+-END HEADER-
+
+-BEGIN HEADER-
+NASA/POWER CERES/MERRA2 Native Resolution Daily Data 
+Dates (month/day/year): 01/01/2015 through 03/04/2023 
+Location: Latitude  41.0381   Longitude -6.8029 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 563.48 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+T2M             MERRA-2 Temperature at 2 Meters (C) 
+T2MDEW          MERRA-2 Dew/Frost Point at 2 Meters (C) 
+T2MWET          MERRA-2 Wet Bulb Temperature at 2 Meters (C) 
+TS              MERRA-2 Earth Skin Temperature (C) 
+T2M_RANGE       MERRA-2 Temperature at 2 Meters Range (C) 
+T2M_MAX         MERRA-2 Temperature at 2 Meters Maximum (C) 
+T2M_MIN         MERRA-2 Temperature at 2 Meters Minimum (C) 
+QV2M            MERRA-2 Specific Humidity at 2 Meters (g/kg) 
+RH2M            MERRA-2 Relative Humidity at 2 Meters (%) 
+PRECTOTCORR     MERRA-2 Precipitation Corrected (mm/day) 
+PS              MERRA-2 Surface Pressure (kPa) 
+WS10M           MERRA-2 Wind Speed at 10 Meters (m/s) 
+WS10M_MAX       MERRA-2 Wind Speed at 10 Meters Maximum (m/s) 
+WS10M_MIN       MERRA-2 Wind Speed at 10 Meters Minimum (m/s) 
+WS10M_RANGE     MERRA-2 Wind Speed at 10 Meters Range (m/s) 
+WD10M           MERRA-2 Wind Direction at 10 Meters (Degrees) 
+-END HEADER-
